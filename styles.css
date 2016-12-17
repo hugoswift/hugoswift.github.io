@@ -1,0 +1,36 @@
+.logo,
+.container {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.container {
+    height: 110px;
+    width: 500px;
+}
+.about {
+    height: auto;
+    width: 150px;
+    font-family: "Raleway";
+    font-size: 2em;
+    text-align: left;
+    vertical-align: middle;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+.left {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.right {
+    width: 50%;
+    height: 100%;
+    float: right;
+}
