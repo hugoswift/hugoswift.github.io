@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>MIDISWAY</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Bitter" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+  <body>
+       <div class="header">
+         <h1 class="title"><a href="index.html">HUGO SWIFT</a></h1>
+          <h2><a href="about.html">ABOUT</a></h2>
+      </div>
+      <div class="jumbo" style="background-image:url('img/midisway.JPG')">
+          <div class="arrow"></div>
+      </div>
+      <div class="column">
+          <p>MIDISWAY is an effects unit that simulates the pitch variation found in old vinyl and tape. The effect is novel in that it is implemented directly via MIDI rather than audio post-processing. The on-board microcontroller directly modifies the pitchbend parameter of the target instrument via its MIDI in port by a sine wave, reproducing the subtle oscillation of an off-centre vinyl or eccentric tape spool.<br><br>
+              
+              The code was written from scratch in a couple of days. The unit itself was built using a collection of scrap components and a few stock parts in a day. The materials needed to build a MIDISWAY unit are as follows:
+          </p>
+          
+          <ul>
+              <li>3D printed enclosure in PLA</li>
+              <li>3D printed cover in PLA</li>
+              <li>Arduino Nano flashed with MIDISWAY firmware</li>
+              <li>MIDI port</li>
+              <li>DC power jack</li>
+              <li>10kΩ potentiometer</li>
+              <li>10kΩ potentiometer with switch</li>
+              <li>Potentiometer knobs x2</li>
+              <li>5mm LED</li>
+              <li>220Ω resistor x2</li>
+              <li>M3 brass inserts x4</li>
+              <li>Stripboard</li>
+              <li>Wire</li>
+              <li>M3 6mm countersunk head socket screw x4</li>
+              <li>M3 6mm button head socket screw x2</li>
+          </ul>
+       
+          <p>
+        The STL files for the Enclosure and Cover can be downloaded from the following links:<br><br>
+              
+         <a href="MIDISWAY Enclosure.STL" download>MIDISWAY Enclosure.stl</a><br>
+         <a href="MIDISWAY Cover.STL" download>MIDISWAY Cover.stl</a>
+              
+          </p>
+          
+          <p>
+        The Arduino code can be downloaded from the following link:<br><br>
+              
+         <a href="MIDISWAY.ino" download>MIDISWAY.ino</a>
+              
+          </p>
+          
+    <p>
+        The effect is intended to be most useful in a live performance scenario, where the incoporation of an audio wow effects unit is not trivial. The unit can simply be plugged into any MIDI instrument and the desired effect is produced and can be tweaked at will. <br><br>
+        
+        The piano phrases in the song <a href="promises.html">Promises</a> were processed using the unit live. The video below shows the build process and song recording session, and demonstrates how a few days of prototyping resulted in the production of a useable effects unit.
+          </p>
+           
+          <div class="videoWrapper">
+    <iframe src="https://player.vimeo.com/video/231010743" width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
+           <p>  
+  This video is licensed under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>
+      </p>
+         
+      <div class="footer"><p>©Hugo Swift 2017</p></div>
+      </div>
+  </body>
+</html>
